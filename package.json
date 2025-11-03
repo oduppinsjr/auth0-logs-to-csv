@@ -1,6 +1,6 @@
 {
   "name": "auth0-logs-to-csv",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Exports Auth0 logs to a CSV file.",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Sandrino Di Mattia",
   "license": "MIT",
   "dependencies": {
-    "auth0": "^0.8.2",
+    "auth0": "^4.0.0",
+    "axios": "^1.6.0",
     "comma-separated-values": "^3.6.4",
-    "nconf": "^0.8.2",
-    "request": "^2.67.0",
-    "winston": "^2.1.1"
+    "nconf": "^0.12.1",
+    "winston": "^3.11.0"
   }
 }
